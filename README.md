@@ -1,4 +1,4 @@
-# 🎨 Nuur GYM - Frontend Client
+#  Nuur GYM - Frontend Client
 
 Interface utilisateur moderne et réactive pour la gestion de la salle de sport **Nuur GYM**. Développée avec React 19, Vite, Tailwind CSS et TypeScript.
 
