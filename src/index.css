@@ -1,0 +1,45 @@
+@import "./styles/fonts.css";
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "./styles/theme.css";
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-transparent text-foreground min-h-screen selection:bg-primary/30;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-cyan hover:shadow-lg hover:shadow-primary/30 text-white font-semibold py-3 px-6 rounded-2xl transition-all active:scale-95 flex items-center justify-center gap-2;
+  }
+
+  .nav-link {
+    @apply flex items-center gap-3 px-4 py-2 rounded-xl text-slate-400 hover:text-white transition-all duration-300;
+  }
+
+  .nav-link.active {
+    @apply text-primary font-semibold;
+  }
+
+  .input-field {
+    @apply w-full bg-input-background border border-border rounded-2xl px-5 py-3 focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all placeholder:text-muted-foreground font-medium;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(91, 163, 245, 0.35);
+    border-radius: 10px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(91, 163, 245, 0.6);
+  }
+}
