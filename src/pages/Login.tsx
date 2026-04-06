@@ -129,7 +129,7 @@ export default function Login() {
               ) : (
                 <>
                   <ShieldCheck className="h-6 w-6 mr-3" />
-                  Entrer dans le Dashboard
+                  Connexion
                 </>
               )}
             </Button>
