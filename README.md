@@ -4,6 +4,13 @@ Interface utilisateur moderne et réactive pour la gestion de la salle de sport 
 
 ---
 
+##  Aperçu
+
+|  Connexion |  Tableau de Bord |
+| :---: | :---: |
+| ![Login](src/assets/login.png) | ![Dashboard](src/assets/dashboard.png) |
+
+---
 ##  Installation & Développement
 
 ###  Lancement Rapide
